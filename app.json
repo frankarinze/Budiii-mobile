@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Budiii Lite",
+    "description": "Budiii Social Interaction App",
+    "scheme": "naitrons.budiii.mobile",
+    "slug": "naitrons_budiii_mobile",
+    "privacy": "public",
+    "sdkVersion": "33.0.0",
+    "version": "0.0.2",
+    "platforms": ["android", "ios"],
+    "githubUrl": "https://github.com/naitrons/budiii-mobile",
+    "orientation": "portrait",
+    "primaryColor": "#2CC1DA",
+    "icon": "src/assets/icon.png",
+    "splash": {
+      "backgroundColor": "#fffff",
+      "image": "src/assets/splash_one.png",
+      "resizeMode": "cover"
+    },
+    "assetBundlePatterns": ["src/assets/**/*"],
+    "android": {
+      "versionCode": 2
+    },
+    "ios": {
+      "buildNumber": "0.0.1",
+      "supportsTablet": true
+    }
+  }
+}
